@@ -9,16 +9,16 @@
   },
   "devDependencies": {
     "browser-sync": "^2.24.4",
-    "del": "^3.0.0",
+    "del": "^5.0.0",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean-css": "^3.9.4",
-    "gulp-postcss": "^7.0.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.2.1",
+    "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.0",
     "gulp-wait": "0.0.2",
-    "postcss-flexbugs-fixes": "^3.3.1"
+    "postcss-flexbugs-fixes": "^4.1.0"
   },
   "dependencies": {},
   "license": "MIT",
@@ -29,5 +29,6 @@
     "type": "git",
     "url": "git+https://github.com/filiosoft/filiosoft.github.io.git"
   },
-  "homepage": "https://filiosoft.com"
+  "homepage": "https://filiosoft.com",
+  "browserslist": ["> 1%"]
 }

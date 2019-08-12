@@ -81,7 +81,8 @@ abbr[data-original-title] {
           text-decoration: underline dotted;
   cursor: help;
   border-bottom: 0;
-  text-decoration-skip-ink: none; }
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none; }
 
 address {
   margin-bottom: 1rem;
@@ -1313,6 +1314,9 @@ pre {
     border-color: #80bdff;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+  .form-control:-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1; }
   .form-control::-ms-input-placeholder {
     color: #6c757d;
     opacity: 1; }

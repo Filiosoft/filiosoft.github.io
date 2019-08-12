@@ -98,7 +98,8 @@ abbr[data-original-title] {
           text-decoration: underline dotted;
   cursor: help;
   border-bottom: 0;
-  text-decoration-skip-ink: none; }
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none; }
 
 address {
   margin-bottom: 1rem;
@@ -1405,6 +1406,9 @@ pre {
     border-color: rgba(50, 151, 211, 0.25);
     outline: 0;
     box-shadow: none, none; }
+  .form-control:-ms-input-placeholder {
+    color: #adb5bd;
+    opacity: 1; }
   .form-control::-ms-input-placeholder {
     color: #adb5bd;
     opacity: 1; }
@@ -9912,6 +9916,8 @@ label {
 .form-control {
   font-size: 0.875rem;
   height: calc(2.75rem + 2px); }
+  .form-control:focus:-ms-input-placeholder {
+    color: #adb5bd; }
   .form-control:focus::-ms-input-placeholder {
     color: #adb5bd; }
   .form-control:focus::placeholder {
@@ -9976,6 +9982,8 @@ textarea[resize="horizontal"] {
   background-color: #fff; }
   .has-success .form-control:focus {
     border-color: rgba(50, 151, 211, 0.25); }
+  .has-success .form-control:-ms-input-placeholder {
+    color: #2dce89; }
   .has-success .form-control::-ms-input-placeholder {
     color: #2dce89; }
   .has-success .form-control::placeholder {
@@ -9990,6 +9998,8 @@ textarea[resize="horizontal"] {
   background-color: #fff; }
   .has-danger .form-control:focus {
     border-color: rgba(50, 151, 211, 0.25); }
+  .has-danger .form-control:-ms-input-placeholder {
+    color: #fb6340; }
   .has-danger .form-control::-ms-input-placeholder {
     color: #fb6340; }
   .has-danger .form-control::placeholder {
